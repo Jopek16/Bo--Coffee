@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: bisque;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #3f2c20;
+    height: 100px;
+}
+#logo img{
+    height: 160px;
+    position: absolute;
+    left: 80px;
+    margin-top: 20px;
+}
+.toplist{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    margin-left:1200px ;
+    margin-right: 50px;
+}
+.toplist li{
+    list-style: none;
+}
+.navbar .toplist a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 30px;
+    padding:10px;
+    transition: 0.4s;
+    }
+.navbar .toplist a:hover{
+    color: rgb(190, 170, 146);
+}
+#topsellersfoottext{
+    margin-top: 100px;
+}
+.topsellers img{
+    width: 400px;
+    padding: 0px;
+}
+.topsellers{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+.topsellers #topsellerstext{
+    width: 400px;
+    margin-top: 150px;
+    position: relative;
+    right: 30px;
+}
+.topsellers img:hover{
+    width: 420px;
+}
+#topsellersimgs{
+    margin-top: 100px;
+    display: flex;
+    position: absolute;
+    margin-left: 400px;
+}
+#line1{
+    width: 160px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 500px;
+    left: 870px;
+}
+#line2{
+    width: 160px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 500px;
+    left: 252px;
+}
+#line3{
+    width: 160px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: 500px;
+    left: -365px;
+}
+#topselltitle1{
+    position: relative;
+    top: 550px;
+    font-size: 30px;
+    font-weight: bold;
+    right: 535px;
+    height: 30px;
+    cursor: pointer;
+    color: #3f2c20;
+    transition: 0.4s;
+}
+#topselltitle2{
+    position: relative;
+    top: 550px;
+    font-size: 30px;
+    font-weight: bold;
+    right: 310px;
+    height: 30px;
+    cursor: pointer;
+    color: #3f2c20;
+    transition: 0.4s;
+}
+#topselltitle3{
+    position: relative;
+    top: 550px;
+    font-size: 30px;
+    font-weight: bold;
+    right: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+#topselltitle1 a{
+    text-decoration: none;
+    color:#3f2c20;
+    transition: 0.2s;
+}
+#topselltitle2 a{
+    text-decoration: none;
+    color:#3f2c20;
+    transition: 0.2s;
+}
+#topselltitle3 a{
+    text-decoration: none;
+    color:#3f2c20;
+    transition: 0.2s;
+}
+#topselltitle1 a:hover{
+    color: #674f40;
+}
+#topselltitle2 a:hover{
+    color: #674f40;
+}
+#topselltitle3 a:hover{
+    color: #674f40;
+}
+#logobac1{
+    position: absolute;
+    z-index: -1;
+    height:300px;
+    width: 300px;
+    margin-top: 140px;
+    margin-left: 1195px;
+}
+#logobac2{
+    position: absolute;
+    z-index: -1;
+    height:300px;
+    width: 300px;
+    margin-top: 140px;
+    margin-right: 400px;
+}
+#logobac3{
+    position: absolute;
+    height:300px;
+    width: 300px;
+    z-index: -1;
+    margin-top: 140px;
+    margin-left: 400px;
+}
+#imgback1{
+    height: 700px;
+    position: relative;
+    top: 300px;
+    left: 145px;
+    border-radius: 15px;
+}
+#findtext{
+    width: 400px;
+    position: relative;
+    left: 1300px;
+    bottom: 420px;
+}
+#findtext h1{
+    font-size: 80px;
+    color: #3f2c20;
+}
+#findtext h4{
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    color: #3f2c20;
+}
+#findtext #CheckOnMapBtn{
+    background-color:#3f2c20;
+    border: none;
+    border-radius:15px ;
+    font-size: 30px;
+    color: bisque;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#findtext #CheckOnMapBtn:hover{
+    background-color: #563f31;
+}
+#findtext #shopnowbutton{
+    position: absolute;
+    bottom: 860px;
+    right: 1395px;
+    width: 160px;
+    background-color:#3f2c20;
+    border: none;
+    border-radius:15px ;
+    font-size: 30px;
+    color: bisque;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#findtext #shopnowbutton:hover{
+    background-color: #563f31;
+}
+.icons #icon1{
+    width: 60px;
+    position: absolute;
+    bottom: 255px;
+    left: 660px;
+}
+.icons #icon11{
+    width: 60px;
+    position: absolute;
+    bottom: 255px;
+    left: 840px;
+}
+.icons #icon3{
+    width: 80px;
+    position: absolute;
+    bottom: 865px;
+    left: 1120px;
+}
+.icons #icon4{
+    width: 100px;
+    position: absolute;
+    left: 1650px;
+    bottom: -100px;
+}    
+.icons #icon5{
+    width: 100px;
+    position: absolute;
+    bottom: 375px;
+    left: 350px;
+}
+.icons #icon2{
+    width: 60px;
+    position: absolute;
+    bottom: 250px;
+    left: 1410px;
+}
+.icons #icon22{
+    width: 60px;
+    position: absolute;
+    bottom: 250px;
+    left: 1675px;
+}
+.icons #icon6{
+    width: 60px;
+    position: absolute;
+    bottom: 250px;
+    left: 1270px;
+}
+.icons #icon66{
+    width: 60px;
+    position: absolute;
+    bottom: 250px;
+    left: 1020px;
+}
+#bottomsection{
+    background-color: #3f2c20;
+    height: 300px;
+    margin-top: -200px;
+}
+#bottomsection #firstcolumn{
+    margin-left: 100px;
+    width: 200px;
+    position: relative;
+    top: 30px;
+    left: 300px;
+    color: bisque;
+    cursor: pointer;
+}
+#bottomsection #secondcolumn{
+    position: relative;
+    bottom: 209px;
+    width: 200px;
+    left: 750px;
+    color: bisque;
+    cursor: pointer;
+}
+#bottomsection #newsletter{
+position: relative;
+bottom: 355px;
+width: 500px;
+left: 1100px;
+color: bisque;
+}
+#bottomsection #inputnewsletter{
+    background-color: #3f2c20;
+    border: none;
+    color: bisque;
+}
+#newsletter #Newsletterbtn{
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+#bottomsection #newsletter #newsletterline{
+width: 200px;
+height: 2px;
+position: relative;
+bottom: -6px;
+background-color:black ;
+background-color: bisque;
+}   
+#newsletter #Newsletterbtn:hover{
+    background-color: rgb(190, 170, 146);
+}
